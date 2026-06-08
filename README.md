@@ -10,47 +10,6 @@ A Splitwise alternative built with Flutter and Supabase. ID-based (no phone numb
 
 ---
 
-## Setup instructions
-
-### 1. Install Flutter
-Download from flutter.dev — follow the install guide for your OS.
-Verify with: `flutter doctor`
-
-### 2. Clone this repo
-```bash
-git clone https://github.com/YOUR_USERNAME/spltly.git
-cd spltly
-```
-
-### 3. Install dependencies
-```bash
-flutter pub get
-```
-
-### 4. Run the Supabase SQL
-Go to your Supabase project → SQL Editor → paste and run the full schema SQL (see supabase_schema.sql in this repo).
-
-### 5. Create the Storage bucket
-Supabase Dashboard → Storage → New bucket → Name: `receipts` → Private
-
-### 6. Environment
-Your `.env` file is already configured with your Supabase URL and anon key.
-⚠️ Never commit `.env` to GitHub — it's in `.gitignore`.
-
-### 7. Run the app
-```bash
-# iOS simulator
-flutter run -d ios
-
-# Android emulator
-flutter run -d android
-
-# Check available devices
-flutter devices
-```
-
----
-
 ## Project structure
 
 ```
