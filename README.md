@@ -59,8 +59,3 @@ lib/
 
 ---
 
-## Deploying to App Store
-1. Open `ios/` in Xcode
-2. Set your Bundle ID and Apple Developer account
-3. Archive → Distribute → App Store Connect
-(Requires a Mac and Apple Developer account — $99/year)
